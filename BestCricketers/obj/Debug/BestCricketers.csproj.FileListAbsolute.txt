@@ -1,0 +1,4 @@
+D:\C#projects\API\BestMovies\BestCricketers\bin\Debug\BestCricketers.dll
+D:\C#projects\API\BestMovies\BestCricketers\bin\Debug\BestCricketers.pdb
+D:\C#projects\API\BestMovies\BestCricketers\obj\Debug\BestCricketers.dll
+D:\C#projects\API\BestMovies\BestCricketers\obj\Debug\BestCricketers.pdb

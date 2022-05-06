@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestMovies", "BestMovies\BestMovies.csproj", "{8CF02483-845D-46EF-9B56-5E14D7798F0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{88C2090A-08F9-4DF7-AEB1-68C136D31274}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{164927C0-2CAF-4483-8BA4-DB987F7E608F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CBestCricketers.Core", "CBestCricketers.Core\CBestCricketers.Core.csproj", "{E9992C99-6213-4BCC-88F9-0B4EEB8C6361}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestCricketers", "BestCricketers\BestCricketers.csproj", "{4651C7B1-EC44-4E76-A20B-8A7AF2E43040}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CF02483-845D-46EF-9B56-5E14D7798F0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CF02483-845D-46EF-9B56-5E14D7798F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CF02483-845D-46EF-9B56-5E14D7798F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CF02483-845D-46EF-9B56-5E14D7798F0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9992C99-6213-4BCC-88F9-0B4EEB8C6361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9992C99-6213-4BCC-88F9-0B4EEB8C6361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9992C99-6213-4BCC-88F9-0B4EEB8C6361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9992C99-6213-4BCC-88F9-0B4EEB8C6361}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4651C7B1-EC44-4E76-A20B-8A7AF2E43040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4651C7B1-EC44-4E76-A20B-8A7AF2E43040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4651C7B1-EC44-4E76-A20B-8A7AF2E43040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4651C7B1-EC44-4E76-A20B-8A7AF2E43040}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E9992C99-6213-4BCC-88F9-0B4EEB8C6361} = {164927C0-2CAF-4483-8BA4-DB987F7E608F}
+		{4651C7B1-EC44-4E76-A20B-8A7AF2E43040} = {88C2090A-08F9-4DF7-AEB1-68C136D31274}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35;packages\Unity.Interception.2.1.505.0\lib\NET35;packages\EnterpriseLibrary.Common.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.Data.5.0.505.0\lib\NET35
+	EndGlobalSection
+EndGlobal
