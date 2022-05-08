@@ -73,5 +73,9 @@ namespace CBestCricketers.Core.BL
             return result;
         }
 
+        //This method is used to add cricketer info in the database
+
+        
+
     }
 }
